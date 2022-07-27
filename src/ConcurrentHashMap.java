@@ -27,7 +27,7 @@ public class ConcurrentHashMap extends Thread {
 		while (iterator.hasNext()) {
 			Thread.sleep(2000);
 			String course = iterator.next();
-			System.out.println(coursesRating.get(course));
+			System.out.println(coursesRating.get(course));  //how to print the course name instead of course rating.
 
 			if (course.equals("Docker")) {
 
